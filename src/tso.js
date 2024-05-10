@@ -5,7 +5,7 @@
 export default function (hljs) {
     return {
         name: 'TSO',
-        aliases: ['z/OS TSO', 'Time Sharing Option Extensions'],
+        aliases: ['z/OS TSO','TSOE', 'Time Sharing Option Extensions'],
         case_insensitive: false,
         keywords: {
             keyword: [
@@ -62,7 +62,6 @@ export default function (hljs) {
                 'CALL',
                 'CANCEL',
                 'COPY',
-                'DELETE',
                 'DROP',
                 'END',
                 'EQUATE',
@@ -115,12 +114,14 @@ export default function (hljs) {
                 'RESTART',
                 'RLIST',
                 'RVARY',
+                'GROUP',
                 'SEARCH',
                 'SET',
                 'SETROPTS',
                 'SIGNOFF',
                 'STOP',
                 'TARGET',
+                'ID',
 
                 'ADD', //RACD subcommands
                 'ADDRING',
@@ -146,6 +147,25 @@ export default function (hljs) {
                 'REMOVE',
                 'ROLLOVER',
                 'UNBIND',
+
+                'TRUST',
+                'NOTRUST',
+                'HIGHTRUST',
+                'WITHLABEL',
+                'LABEL',
+                'PKDS',
+                'PCICC',
+                'ICSF',
+                'BIND',
+                'DEFAULT',
+                'TOKEN',
+                'USAGE',
+                'PERSONAL',
+                'SITE',
+                'CERTAUTH',
+                'SERIALNUMBER',
+                'FORCE',
+                'RING'
             ],
             built_in: [
 
