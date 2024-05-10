@@ -4,7 +4,7 @@
 
 export default function (hljs) {
     return {
-        name: 'JCL',
+        name: 'TSO',
         aliases: ['z/OS TSO', 'Time Sharing Option Extensions'],
         case_insensitive: false,
         keywords: {
