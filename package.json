@@ -1,6 +1,6 @@
 {
   "name": "highlightjs-tso",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "z/OS TSO/E and RACF command syntax highlighting for highlight.js",
   "main": "src/tso.js",
   "types": "src/tso.d.ts",

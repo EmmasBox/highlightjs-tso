@@ -158,9 +158,6 @@ export default function (hljs) {
             ]
         },
         contains: [
-            hljs.COMMENT(
-
-            ),
             {
                 scope: 'string',
                 begin: "'", end: "'"
