@@ -166,16 +166,8 @@ export default function (hljs) {
                 begin: "'", end: "'"
             },
             {
-                scope: 'operator',
-                begin: /(=|\*)/
-            },
-            {
                 scope: 'number',
                 begin: /\b(\d+)\b/
-            },
-            {
-                scope: 'meta',
-                begin: /(\/\/\w+|\/\*)/
             }
         ]
     }
